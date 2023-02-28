@@ -19,11 +19,4 @@ class Guest extends BaseController
             . view('guest/index')
             . view('templates/footer');
     }
-
-    #public function view($slug = null)
-    #{
-     #   $model = model(NewsModel::class);
-
-      #  $data['guest'] = $model->getNews($slug);
-    #}
 }

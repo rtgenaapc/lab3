@@ -3,11 +3,18 @@
 <?php if (! empty($guest) && is_array($guest)): ?>
 
     <?php foreach ($guest as $guest_item): ?>
-        
+
         <div class="main">
-            <h3><?= esc($guest_item['fullname']) ?></h3>
-            <p> <?= esc($guest_item['email']) ?>
-            <p> <?= esc($guest_item['comment']) ?>
+		<br>
+		<b>
+		<table>
+		<tr>
+		<th>-----</th>
+		 <th><?= esc($guest_item['fullname']) ?> </th>
+         <th><?= esc($guest_item['email']) ?> </th>
+		 <th><?= esc($guest_item['comment']) ?> </th>
+		</tr>
+		</table>
         </div>
     <?php endforeach ?>
 
