@@ -11,8 +11,11 @@
 		<tr>
 		<th>-----</th>
 		 <th><?= esc($guest_item['fullname']) ?> </th>
+         <th>-----</th>
          <th><?= esc($guest_item['email']) ?> </th>
+         <th>-----</th>
 		 <th><?= esc($guest_item['comment']) ?> </th>
+         <th>-----</th>
 		</tr>
 		</table>
         </div>
