@@ -5,14 +5,14 @@
     <link rel="icon" type="image/png" href="images/RJ-favicon.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="resstyle.css">
+    <link rel="stylesheet" href="css/resstyle.css">
 
 </head>
 <body>
     <div class="header">
         <h1>RJ.</h1>
         <div class="header-right">
-          <a href="index.html"><B>HOME</B></a>
+          <a href="indexRJ.html"><B>HOME</B></a>
         </div>
     </div>
 
