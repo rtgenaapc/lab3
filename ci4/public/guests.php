@@ -4,8 +4,8 @@
     <title>Reiner Gena</title>
         <!-- Favicon ni RJ-->
         <link rel="icon" type="image/png" href="images/RJ-favicon.png">
-        <link rel="stylesheet" href="mystyle.css">
-        <script src="myScript.js"></script>
+        <link rel="stylesheet" href="css/mystyle.css">
+        <script src="js/myScript.js"></script>
         <meta charset="UTF-8">
 
         <meta name="description" content="Reiner Gena's Portfolio">
