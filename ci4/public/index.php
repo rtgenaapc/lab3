@@ -4,8 +4,8 @@
     <title>Reiner Gena</title>
         <!-- Favicon ni RJ-->
         <link rel="icon" type="image/png" href="images/RJ-favicon.png">
-        <link rel="stylesheet" href="mystyle.css">
-        <script src="myScript.js"></script>
+        <link rel="stylesheet" href="css/mystyle.css">
+        <script src="js/myScript.js"></script>
         <meta charset="UTF-8">
 
         <meta name="description" content="Reiner Gena's Portfolio">
@@ -155,7 +155,7 @@ $email = $_POST['email'];
 $website = $_POST['website'];
 $comment = $_POST['comment'];
 
-$sql = "INSERT INTO gena_MyGuests (Fullname, email, website, comment)
+$sql = "INSERT INTO Gena_MyGuests (Fullname, email, website, comment)
 VALUES ('$name','$email', '$website', '$comment')";
 
 if ($conn->multi_query($sql) === TRUE) {
